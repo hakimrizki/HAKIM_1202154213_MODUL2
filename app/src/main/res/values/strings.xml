@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HAKIM_1202154213_MODUL2</string>
+    <string-array name="android_layout_arrays">
+        <item>Pilih Meja</item>
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+    </string-array>
+</resources>

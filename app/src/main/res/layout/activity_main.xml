@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:padding="20dp"
+    tools:context="id.hakimrizki.hakim_1202154213_modul2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Menu :"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/rbGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_di"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dine In"/>
+
+            <RadioButton
+                android:id="@+id/rb_ta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Away"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_pesan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="PESAN SEKARANG"
+            android:onClick="pesan"/>
+
+    </LinearLayout>
+
+</LinearLayout>
