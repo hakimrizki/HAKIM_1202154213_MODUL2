@@ -48,12 +48,57 @@
         android:layout_marginTop="20dp"
         android:hint="Catatan"/>
 
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_tanggal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Pilih Hari"/>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_jam"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Pilih Jam"/>
+
+    </LinearLayout>
+
     <Button
         android:layout_gravity="center_horizontal"
         android:id="@+id/btn_pilih"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Pilih Pesanan"/>
+
+    <TextView
+        android:id="@+id/tv_tanggal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Tanggal yang dipilih = "
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_jam"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Waktu yang dipilih = "
+        android:textSize="15sp"/>
 
 </LinearLayout>
