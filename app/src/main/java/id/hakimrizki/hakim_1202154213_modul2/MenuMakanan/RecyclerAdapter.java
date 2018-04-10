@@ -65,7 +65,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
     //Method diatas digunakan untuk menghitung ukuran dari ArrayList
 
     private void openDetailActivity(String name, String harga, int image){
-        Intent i = new Intent(c, DetailMenuActivity.class);
+        Intent i = new Intent(c.getApplicationContext(), DetailMenuActivity.class);
         i.putExtra("nama",name);
         i.putExtra("harga",harga);
         i.putExtra("gambar",image);

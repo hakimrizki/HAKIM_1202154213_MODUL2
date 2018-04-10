@@ -11,7 +11,7 @@ public class ListMenuActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
-    //Deklarasi komponen RecyclerView
+    //Deklarasii komponen RecyclerView
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

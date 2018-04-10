@@ -1,5 +1,6 @@
 package id.hakimrizki.hakim_1202154213_modul2.MenuMakanan;
 
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -18,7 +19,6 @@ public class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.
 
     TextView tv1,tv2;
     ImageView imageView;
-    RecyclerAdapter mAdapter;
     ItemClickListener itemClickListener;
 
     //Deklarasi komponen yang diperlukan pada UI

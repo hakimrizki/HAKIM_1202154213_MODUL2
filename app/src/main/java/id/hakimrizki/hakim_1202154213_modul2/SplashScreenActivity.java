@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
-    //Class ini digunakan untuk membuat splash screen yang akan tampil selama 4 detik serta memunculkan Toast
+    //Classs ini digunakan untuk membuat splash screen yang akan tampil selama 4 detik serta memunculkan Toast
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
